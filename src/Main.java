@@ -9,7 +9,11 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
 
-        System.out.println("Choose an operator: +, -, *, or /");
+        System.out.println("Press 1 for addition");
+        System.out.println("Press 2 for subtraction");
+        System.out.println("Press 3 for multiplication");
+        System.out.println("Press 4 for division");
+        System.out.println("Press 5 for exit");
         operator = input.next().charAt(0);
 
 
@@ -22,7 +26,7 @@ public class Main {
 
         switch (operator) {
 
-            case '+':
+            case '1':
                 result = number1 + number2;
                 System.out.println(number1+ " + "+number2 + " = " + result );
                 break;
