@@ -30,6 +30,11 @@ public class Main {
                 result = number1 + number2;
                 System.out.println(number1+ " + "+number2 + " = " + result );
                 break;
+
+            case '2':
+                result = number1 - number2;
+                System.out.println(number1+ " - "+number2 + " = " + result );
+                break;
         }
 
 
